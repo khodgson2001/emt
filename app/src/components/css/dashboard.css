@@ -1,0 +1,14 @@
+.dashboard-stat-num{
+    font-size: 3em;
+    font-weight: 350;
+    color: #fff;
+    float: left;
+}
+
+.dashboard-stat-text{
+    font-size: 1.5em;
+    float: left;
+    text-anchor: end;
+    margin-top: 0.75em;
+    margin-left: 0.5em;
+}
