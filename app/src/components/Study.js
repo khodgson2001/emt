@@ -56,7 +56,7 @@ function Study(props) {
     function deleteFile(filename) { // delete a file from the database and the server
         const formData = new FormData();
         formData.set("filename", filename);
-        axios.post('http://unn-w20002249.newnumyspace.co.uk/emt/api/files/delete', formData,
+        axios.post(process.env.REACT_APP_API_LINK + '/files/delete', formData,
             {
                 headers: {
                     'Content-Type': 'multipart/form-data',
@@ -64,6 +64,8 @@ function Study(props) {
                 }
             })
             .then((response) => {
+                console.log(formData.get("filename"));
+                console.log(response);
                 alert("File deleted successfully");
             }
 
