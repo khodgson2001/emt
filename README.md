@@ -3,6 +3,8 @@ This is a continuation of the final project for my Northumbria University Web De
 
 The application is a digitisation of a forms system used by a local healthcare provider who conducts clinical vaccination trials. The app comes in two parts, **the front-end application**, and **the API**. 
 
+If you would like a demo of the system, please do let me know on my contact email. 
+
 ## Front-End Application 
 The application is built using React.js, as such node.js needs to be installed for you to run this. 
 
